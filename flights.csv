@@ -1,0 +1,6 @@
+from,to,date,price
+London,Paris,2024-12-10,100
+London,Paris,2024-12-11,120
+London,New York,2024-12-10,500
+Paris,Tokyo,2024-12-15,700
+Tokyo,Sydney,2024-12-20,900

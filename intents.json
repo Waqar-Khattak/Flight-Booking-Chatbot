@@ -1,0 +1,95 @@
+{
+  "intents": [
+    {
+      "tag": "greet_user",
+      "patterns": ["Hi", "Hello", "Hey", "Good morning", "Good evening", "How are you?", "What's up?", "Hey there", "Hi there", "Greetings", "Howdy"],
+      "responses": [
+        "Hello! How can I assist you today?",
+        "Hi there! How can I help you?",
+        "Hey! How can I assist you?",
+        "Good day! How can I be of service?",
+        "Hello! What can I do for you today?",
+        "Greetings! How can I help you today?"
+      ]
+    },
+    {
+      "tag": "book_ticket_request",
+      "patterns": ["I want to book a ticket", "Book a ticket for me", "Ticket booking", "Help me book a ticket", "I need a ticket", "Can you help me book a ticket?", "Book my ticket", "Can you arrange a ticket for me?", "I'd like to book a ticket"],
+      "responses": [
+        "Sure! Where are you traveling to?",
+        "I can help with that! What are your going to? ",
+        "Let's get you booked! Where are you traveling to?",
+        "I’d be happy to help! Where are you traveling to?",
+        "Of course! Tell me your destination locations, please."
+      ]
+    },
+    {
+      "tag": "travel_to",
+      "patterns": ["Traveling to London", "I want to travel to Dubai", "My travel is to Tokyo", "Traveling to [City A]", "Departing to [City A]", "I need a ticket to [City A]"],
+      "responses": [
+        "Got it!","Noted!","right!","Okay!", "Great!" 
+      ]
+    },
+    {
+      "tag": "specific_ticket_price",
+      "patterns": [
+        "How much is ticket cost to London?",
+        " price of ticket to Dubai?",
+        "Ticket price for  Tokyo",
+        "What is the cost of traveling to Sydney?",
+        "Can you tell me the ticket price to Beijing?"
+      ],
+      "responses": [
+        "The ticket cost starts at $500. Pay now",
+        "The price of ticket is $650.Go to payment",
+        "The ticket price is $1200. Would you like to book?",
+        "The cost for your trip is $950. Let me know if you'd like to move forward to payment.",
+        "The pricing for traveling is $800. Should I continue to payment options?"
+      ]
+    },
+    {
+      "tag": "list_payment_methods",
+      "patterns": ["What are the payment options?", "How can I pay?", "Payment methods available", "What are the payment choices?", "How do I complete the payment?", "Can I pay with credit card?", "Payment details"],
+      "responses": [
+        "You can pay using credit cards, debit cards, or online payment gateways like PayPal.",
+        "We accept credit cards, debit cards, and secure online payments.",
+        "You can make your payment via credit card, debit card, or PayPal.",
+        "Payment methods include credit cards, debit cards, and online platforms like PayPal.",
+        "You can pay securely using a credit card, debit card, or other online methods."
+      ]
+    },
+    {
+      "tag": "confirm_payment_received",
+      "patterns": ["Payment successful", "I have made the payment", "Payment completed", "I’ve paid", "Payment is done", "I’ve completed the payment"],
+      "responses": [
+        "Thank you! Your payment has been received.",
+        "Payment successful! I’m processing your booking now.",
+        "Great! I’ve received your payment and will confirm your ticket shortly.",
+        "Payment confirmed! I’ll proceed with your ticket.",
+        "Thanks for the payment! Your ticket is now being confirmed."
+      ]
+    },
+    {
+      "tag": "confirm_booking_successful",
+      "patterns": ["Is my booking confirmed?", "Ticket confirmation", "Has my booking been confirmed?", "Is my ticket booked?", "Did you confirm my ticket?", "Is my ticket ready?"],
+      "responses": [
+        "Yes, your ticket is confirmed! Check your email for the details.",
+        "Your ticket has been successfully booked.",
+        "Booking confirmation successful! . Details sent to your email.",
+        "Your ticket is booked and confirmed! You’re all set.",
+        "Yes, your booking is confirmed. Safe travels!"
+      ]
+    },
+    {
+      "tag": "cancel_booking_request",
+      "patterns": ["Cancel my booking", "I want to cancel my ticket", "Can I cancel my ticket?", "How do I cancel my booking?", "Cancel my ticket", "I need to cancel my booking"],
+      "responses": [
+        "Sure, let me process the cancellation. Can you provide your booking reference?",
+        "I can cancel your booking for you. Please share your ticket number.",
+        "Cancellation is in process. Can you confirm your booking details?",
+        "I’ll help with the cancellation. Please provide your booking ID.",
+        "Your booking can be canceled. Please confirm your booking reference for processing."
+      ]
+    }
+  ]
+}
